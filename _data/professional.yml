@@ -1,0 +1,16 @@
+- name: Hydrolab Sim
+  role: Backend Engineer
+  location: Mashhad, Iran
+  date: Jan 2025 – Present
+  bullets:
+    - "Owned backend development of a SaaS platform, shaping system behavior from early design through production evolution, with emphasis on data durability, lifecycle integrity, and forward-compatible system growth."
+    - "Designing an AI-assisted optimization pipeline combining LLM-guided candidate generation with iterative optimization to discover formulations satisfying target material properties."
+    - "Platform work was presented at the 3rd Regional Symposium on Innovation in Science and Technology, 2026 (see [Publications](#publications))."
+
+- name: AHD Company
+  role: NLP Intern
+  location: Mashhad, Iran
+  date: Jun 2025 – Sep 2025
+  bullets:
+    - "Built and managed data processing pipelines for TTS datasets, including profiling, cleaning, and merging to ensure reliable training data."
+    - "Fine-tuned pretrained Farsi models and researched NLP technologies (LLMs, RAG) to improve speech synthesis capabilities."

@@ -1,0 +1,76 @@
+# Every block of the one-page site is listed here. The order below is the order on the
+# page AND in the navbar.
+#
+#   id       anchor name (used by the navbar link, e.g. #education)
+#   type     profile | text | timeline | keyvalue | publications
+#   title    heading shown on the card
+#   nav      label in the navbar (leave out to keep the section out of the navbar)
+#   source   name of the file in _data/ that holds the entries (timeline / keyvalue)
+#   show     set to false to hide a section without deleting it
+#
+# To add a section: create a data file in _data/ and add one entry here.
+
+- id: about
+  type: profile
+  nav: About
+
+- id: research-interests
+  type: text
+  title: Research Interests
+  nav: Interests
+  text: >-
+    My research interests sit at the intersection of artificial intelligence, machine learning,
+    and optimization, with particular emphasis on reinforcement learning, reasoning in large
+    language models, evolutionary and swarm intelligence, computer vision, and quantum machine
+    learning.
+
+- id: education
+  type: timeline
+  title: Education
+  nav: Education
+  source: education
+
+- id: experience
+  type: timeline
+  title: Professional Experience
+  nav: Experience
+  source: professional
+
+- id: research
+  type: timeline
+  title: Research Experience
+  nav: Research
+  source: research
+
+- id: teaching
+  type: timeline
+  title: Teaching Assistant Experience
+  nav: Teaching
+  source: teaching
+
+- id: projects
+  type: timeline
+  title: Projects
+  nav: Projects
+  source: projects
+
+- id: publications
+  type: publications
+  title: Publications
+  nav: Publications
+
+- id: skills
+  type: keyvalue
+  title: Technical Skills
+  nav: Skills
+  source: skills
+
+- id: service
+  type: keyvalue
+  title: Conferences & Academic Service
+  source: service
+
+- id: languages
+  type: keyvalue
+  title: Languages
+  source: languages

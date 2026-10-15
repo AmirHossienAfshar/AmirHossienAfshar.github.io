@@ -1,0 +1,9 @@
+{% assign section = include.section %}
+<div class="card border-0 shadow-sm bg-white">
+    <div class="card-body p-4">
+        <h5 class="section-title">{{ section.title }}</h5>
+        <div class="section-text">
+            {{ section.text | markdownify }}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+- name: Ferdowsi University of Mashhad
+  role: B.Sc. in Computer Engineering
+  location: Mashhad, Iran
+  date: Sep 2022 – Present
+  bullets:
+    - "GPA: 18.3/20 (≈91.5%), 139/142 courses completed"
+    - "**Relevant coursework:** Quantum Machine Learning (19.69/20), Signals and Systems (20/20), Artificial Intelligence (20/20), Computational Intelligence (20/20), Advanced Programming (20/20), Computer Vision Fundamentals (19.2/20)"

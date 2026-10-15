@@ -1,0 +1,10 @@
+{% assign section = include.section %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% if pubs.size > 0 %}
+<div class="p-0 bg-white shadow-sm rounded-xl">
+    <h5 class="section-title border-bottom border-gray p-3 mb-0">{{ section.title }}</h5>
+    {% for item in pubs %}
+        {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=false last=forloop.last %}
+    {% endfor %}
+</div>
+{% endif %}

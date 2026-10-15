@@ -1,0 +1,19 @@
+- name: Quantum Image Matching — Bachelor's Thesis
+  role: Ferdowsi University of Mashhad
+  location: Mashhad, Iran
+  date: 2025 – Present
+  links:
+    GitHub: https://github.com/AmirHossienAfshar/quantum-vision-thesis
+  bullets:
+    - "Researching genuinely quantum (non-heuristic) algorithms for image template and pattern matching under geometric distortion, including Grover-based search, quantum Hadamard edge detection, and QFT-based filtering."
+    - "Critically evaluated quantum machine learning approaches (QCNNs, quanvolutional networks, quantum-inspired optimizers) against the literature on the limits of claimed quantum advantage, redirecting the project toward algorithms with a genuine quantum mechanism rather than ported classical architectures."
+    - "Authored a from-scratch mathematical foundation covering classical computer vision (homography estimation via Direct Linear Transform, RANSAC, feature matching) as groundwork for the implementation phase."
+
+- name: Quantum-Entanglement-Inspired PSO
+  role: Independent Research Project
+  location: Mashhad, Iran
+  links:
+    GitHub: https://github.com/AmirHossienAfshar/quantum-entanglement-inspired-pso
+  bullets:
+    - "Implemented a Quantum Entanglement-Inspired Particle Swarm Optimization (QEPSO) algorithm from a *Knowledge-Based Systems* publication, exploring quantum-inspired techniques in computational intelligence."
+    - "Extended the original approach by incorporating opposition-based quantum entanglement to improve search performance."

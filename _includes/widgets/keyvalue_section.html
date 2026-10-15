@@ -1,0 +1,13 @@
+{% comment %} Simple "label: value" list. Entries: label, value (markdown allowed). {% endcomment %}
+{% assign section = include.section %}
+<div class="card border-0 shadow-sm bg-white">
+    <div class="card-body p-4">
+        <h5 class="section-title">{{ section.title }}</h5>
+        <dl class="row mb-0 small">
+            {% for item in site.data[section.source] %}
+            <dt class="col-sm-3 col-md-2">{{ item.label }}</dt>
+            <dd class="col-sm-9 col-md-10">{{ item.value | markdownify | remove: "<p>" | remove: "</p>" | strip }}</dd>
+            {% endfor %}
+        </dl>
+    </div>
+</div>

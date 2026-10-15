@@ -1,0 +1,10 @@
+- label: Programming
+  value: Python, C++
+- label: Machine Learning
+  value: TensorFlow, PyTorch, Pennylane
+- label: Data Analysis
+  value: "NumPy, Pandas [(Certified)](https://www.kaggle.com/learn/certification/amirhafshar/pandas), Matplotlib, Seaborn [(Certified)](https://www.kaggle.com/learn/certification/amirhafshar/data-visualization)"
+- label: NLP
+  value: LLMs, RAG, Prompt Engineering
+- label: Tools
+  value: Git, GitLab, Jupyter Notebook, n8n

@@ -1,0 +1,14 @@
+- name: Ferdowsi University of Mashhad
+  role: Teaching Assistant
+  location: Mashhad, Iran
+  date: Feb 2024 – Jun 2026
+  bullets:
+    - "**Artificial Intelligence** — Head TA, 3 semesters *(Instructor: Dr. Harati)* — [GitHub Organization](https://github.com/FUM-AI-Archive)<br>Led a six-member TA team and redesigned the course assessment framework with a combination of assignments, conceptual questions, and projects. Coordinated the development, review, and evaluation of assignments and projects, and contributed to reinforcement-learning project design."
+    - "**Advanced Programming** — 5 semesters *(Instructor: Dr. Sobuti)*<br>Co-designed and documented the main course project across two development phases. Evaluated student implementations, with project assessment contributing up to 50% of the course grade."
+    - "**Linear Algebra** — 4 semesters *(Instructor: Dr. Rouhani)*<br>Member of a five-person TA team, designing questions for three assignments per semester and evaluating student submissions. Designed application-oriented projects connecting linear algebra with computational fields, including a project on quantum computing."
+    - "**Signals and Systems** — 2 semesters *(Instructor: Dr. Farzam)*<br>Designed and evaluated quizzes and developed a project on signal transformations and their representations."
+    - "**Computational Intelligence** — 1 semester *(Instructor: Dr. Fazl Ersi)*<br>Designed a machine-learning project comparing Decision Trees and SVMs, emphasizing preprocessing and hyperparameter optimization."
+    - "**Advanced Artificial Intelligence** — Graduate course, 1 semester *(Instructor: Dr. Harati)*<br>Designed assignments for this graduate course for international students."
+    - "**Introduction to Computer Vision** — 1 semester *(Instructor: Dr. Taherinia)* — [GitHub repo](https://github.com/AmirHossienAfshar/fum-introduction-to-computer-vision)<br>Designed and evaluated four assignments progressing from classical to deep-learning-based computer vision."
+    - "**Discrete Mathematics** — 1 semester *(Instructor: Dr. Ghiasi)*<br>Supported organizing weekly exam questions."
+    - "**Computer Architecture** — 1 semester *(Instructor: Dr. Farzam)* — Led the “single-cycle processor” project."

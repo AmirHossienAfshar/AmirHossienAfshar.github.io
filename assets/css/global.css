@@ -150,3 +150,27 @@ div.lazy {
         transition: none;
     }
 }
+
+/* ---- One-page layout ---- */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* keep section headings clear of the fixed navbar */
+}
+
+body {
+    position: relative; /* required by Bootstrap scroll-spy */
+}
+
+.section-title {
+    margin-bottom: 1rem;
+}
+
+.section-text p:last-child {
+    margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}

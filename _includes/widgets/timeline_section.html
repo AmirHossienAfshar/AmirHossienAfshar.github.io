@@ -1,0 +1,41 @@
+{% comment %}
+  Generic list of entries (education, jobs, projects, ...). Fields per entry:
+  name, role, location, date, logo, links (label: url), bullets (markdown allowed).
+  Everything except name is optional.
+{% endcomment %}
+{% assign section = include.section %}
+{% assign items = site.data[section.source] %}
+<div class="card border-0 shadow-sm bg-white">
+    <div class="card-body p-4">
+        <h5 class="section-title">{{ section.title }}</h5>
+        {% for item in items %}
+        <div class="{% unless forloop.last %}mb-4{% endunless %}">
+            <div class="d-flex flex-wrap">
+                <div class="font-weight-bold">
+                    {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="" style="width: 18px;" class="mr-1">{% endif %}
+                    {{ item.name }}
+                    {% if item.links %}
+                    <span class="small font-weight-normal abstract-links">
+                        {% for link in item.links %}<a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a> {% endfor %}
+                    </span>
+                    {% endif %}
+                </div>
+                {% if item.date %}<div class="ml-auto text-muted no-break"><em>{{ item.date }}</em></div>{% endif %}
+            </div>
+            {% if item.role or item.location %}
+            <div class="d-flex flex-wrap small">
+                <div>{{ item.role }}</div>
+                {% if item.location %}<div class="ml-auto text-muted">{{ item.location }}</div>{% endif %}
+            </div>
+            {% endif %}
+            {% if item.bullets %}
+            <ul class="small pl-4 mt-2 mb-0">
+                {% for b in item.bullets %}
+                <li class="mb-1">{{ b | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
